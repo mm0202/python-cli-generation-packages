@@ -130,8 +130,8 @@ Commands:
 baker同様、短くシンプルで見やすい。
 
 ## fire
+### ヘルプオプションありの場合
 ```shell
-# ヘルプオプションあり
 $ python fire_trial.py -- --help
 NAME
     fire_trial.py
@@ -141,8 +141,10 @@ SYNOPSIS
 
 FLAGS
     --end_point=END_POINT
+```
 
-# ヘルプオプションなし
+### ヘルプオプションなしの場合
+```shell
 $ python fire_trial.py
 NAME
     fire_trial.py
