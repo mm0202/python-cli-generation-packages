@@ -1,0 +1,11 @@
+version: "3.2"
+
+services: 
+  python-cli-generation-packages-trial:
+    container_name: python-cli-generation-packages-trial
+    build: .
+    working_dir: /working_dir
+    stdin_open: true
+    tty: true
+    volumes: 
+      - ./src:/working_dir
