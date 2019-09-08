@@ -1,0 +1,1 @@
+docker-compose up python-cli-generation-packages-trial
